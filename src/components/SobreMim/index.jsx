@@ -32,15 +32,15 @@ export default function SobreMim() {
                 {/*Lado direito*/}
                 <div className={styles.skills}>
                     <h2>Minhas Skills</h2>
-                    <div className={styles.skillsGrid}>
-                        <div className={styles.skillsCard}>HTML</div>
-                        <div className={styles.skillsCard}>CSS</div>
-                        <div className={styles.skillsCard}>JavaScript</div>
-                        <div className={styles.skillsCard}>React</div>
-                        <div className={styles.skillsCard}>PHP</div>
-                        <div className={styles.skillsCard}>Node.js</div>
-                        <div className={styles.skillsCard}>MySQL</div>
-                        <div className={styles.skillsCard}>MONGO DB</div>
+                    <div className={styles.skillsGrid} data-aos="fade-left">
+                        <div data-aos="flip-up" className={styles.skillsCard}>HTML</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>CSS</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>JavaScript</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>React</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>PHP</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>Node.js</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>MySQL</div>
+                        <div data-aos="flip-up" className={styles.skillsCard}>MONGO DB</div>
                     </div>
 
 

@@ -7,7 +7,7 @@ export default function Projetos() {
             <h2>
                 Projetos
             </h2>
-            <div className={styles.content}>
+            <div className={styles.content} data-aos="fade-right">
                 <p>EM BREVE</p>
                 <span>
                     Novos projetos estão sendo desenvolvidos...

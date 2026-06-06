@@ -37,8 +37,8 @@ export default function Hero() {
                     </div>
 
 
-                    <div>
-                        <img src={FotoPerfil} alt="minha foto de perfil" className={styles.fotoperfil} />
+                    <div data-aos="flip-down">
+                        <img src={FotoPerfil} alt="minha foto de perfil" className={styles.fotoperfil}  />
                     </div>
                 </div>
 

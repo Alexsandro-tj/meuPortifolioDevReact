@@ -30,12 +30,12 @@
 }
 
 .fotoperfil {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transition: transform 0.8s ease-in-out;
 
     border-radius: 10%;
-    margin: 10px;
+    margin: 100px 10px;
     object-fit: cover;
     box-shadow: 3px 3px 30px gray;
 
@@ -59,16 +59,15 @@
     flex-direction: column;
     gap: 35px;
     margin-top: 70px;
-
+color: #e1e1e6;
     & span {
         font-weight: normal;
         font-size: 20px;
         margin-top: 10px;
-        color: #112BED;
     }
 
     & h1 {
-        color: #e1e1e6;
+        
         font-size: 50px;
     }
 

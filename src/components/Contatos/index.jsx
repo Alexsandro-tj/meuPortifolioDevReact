@@ -1,12 +1,12 @@
 import styles from '../Contatos/Contatos.module.css';
-import { FaWhatsapp } from "react-icons/fa";
+
 
 
 
 export default function Contatos() {
     let enderecoPagina = "http://localhost:5173/";
     return (
-        <section id='contatos' className={styles.Container}>
+        <section id='contatos' className={styles.Container} data-aos="fade-right">
             <div className={styles.content}>
                 <h2>
                     Vamos Conversar?
@@ -14,9 +14,7 @@ export default function Contatos() {
                 <p>
                     Entre em contato para projetos, parcerias e trabalhos.
                 </p>
-                <a href="https://wa.me/5551991019959" target="_blank" rel="noopener noreferrer " className={styles.botaoflutuante}>
-                    <FaWhatsapp />
-                </a>
+                
                 
                 {/* Fomrulário */}
                 <form action="https://formsubmit.co/alexsandrotj94@gmail.com" method="POST">
