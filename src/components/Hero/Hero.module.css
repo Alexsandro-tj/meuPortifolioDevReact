@@ -1,0 +1,79 @@
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: xx-large;
+    flex-direction: column;
+    background: linear-gradient(#005582, #0000);
+    color: aliceblue;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.redessociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.fotoperfil {
+    width: 400px;
+    height: 400px;
+    transition: transform 0.8s ease-in-out;
+
+    border-radius: 10%;
+    margin: 10px;
+    object-fit: cover;
+    box-shadow: 3px 3px 30px gray;
+
+}
+
+.fotoperfil:hover {
+    transform: translateY(-10px);
+}
+
+.heroContainer {
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 250px;
+    margin-top: 20px;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 70px;
+
+    & span {
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #112BED;
+    }
+
+    & h1 {
+        color: #e1e1e6;
+        font-size: 50px;
+    }
+
+    & p {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,50 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: white;
+    border-bottom: 1px solid #323238;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    animation: girar-continuamente 4s linear infinite;
+}
+
+@keyframes girar-continuamente {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header span {
+    font: bold;
+    font-weight: 1.5rem;
+    color: darkblue;
+
+}
+
+.header nav a {
+    color: chocolate;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    /* transition: color 0.2s; */
+    transition:  transform 2s ease-in-out;
+
+
+}
+
+.header a:hover {
+    color: chartreuse;
+}

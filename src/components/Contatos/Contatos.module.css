@@ -1,0 +1,105 @@
+.container {
+    background: linear-gradient(360deg, #0000, #005582);
+    padding: 4rem 2rem;
+    color: aliceblue;
+    width: 100%;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+
+    & h2 {
+
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+
+
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    & input,
+    textarea,
+    button {
+        width: 100%;
+        background-color: aliceblue;
+        border: 2px solid #112BED;
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 0.8rem;
+        outline: none;
+        color: black;
+        transition: 1s ease-in-out;
+        cursor: pointer;
+
+    }
+
+}
+button:hover{
+    
+    background-color: #112BED;
+    transform: translateY(-5px);
+}
+input:hover{
+    background-color: aqua;
+    transform: translateY(-5px);
+}
+textarea:hover{
+    background-color: aqua;
+    transform: translateY(-5px);
+}
+
+/* button{
+    animation: girar-continuamente 4s linear infinite;
+}
+@keyframes girar-continuamente {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+form textarea {
+    height: 200px;
+}
+
+.botaoflutuante {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px; /* Distância do fundo da tela */
+  right: 40px;  /* Distância da lateral direita */
+  background-color: #25d366; /* Ex: Cor do WhatsApp */
+  color: white;
+  border-radius: 50px; /* Deixa o botão redondo */
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); /* Sombra para dar destaque */
+  z-index: 1000; /* Garante que o botão fique na frente de outros elementos */
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease; /* Animação suave ao passar o mouse */
+  transition-duration: 2s;
+}
+
+/* Efeito ao passar o mouse */
+.botaoflutuante:hover {
+  background-color: #128c7e; 
+  transform: scale(1.1); /* Aumenta levemente o botão */
+}
