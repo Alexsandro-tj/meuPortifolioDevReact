@@ -8,6 +8,8 @@
     border-bottom: 1px solid #323238;
     font-weight: bold;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
 
 }
 
