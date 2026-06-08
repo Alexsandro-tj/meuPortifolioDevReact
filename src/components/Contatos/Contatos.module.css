@@ -77,3 +77,9 @@ form textarea {
     height: 200px;
 }
 
+@media  screen and (max-width:720px){
+    form {
+        padding:32px;
+    }
+    
+}

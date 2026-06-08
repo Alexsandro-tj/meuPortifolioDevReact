@@ -2,10 +2,7 @@
     height: 80px;
     display: flex;
     align-items: center;
-    
-    /* padding: 0 2rem; */
     background-color: white;
-    border-bottom: 1px solid #323238;
     font-weight: bold;
     width: 100vw;
     position: fixed;
@@ -13,14 +10,7 @@
 
 }
 
-@media screen and (max-width:720px) {
-    .header nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 100vw;
-        margin-left: 20px;
-    }
-}
+
 
 
 
@@ -63,7 +53,7 @@
     color: chartreuse;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 721px) {
     nav {
         display: flex;
         justify-content: end;
@@ -71,5 +61,18 @@
         align-items: center;
         width: 100vw;
         gap: 10px;
+    }
+
+    .icon{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:720px) {
+    .header nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100vw;
+        margin-left: 20px;
     }
 }

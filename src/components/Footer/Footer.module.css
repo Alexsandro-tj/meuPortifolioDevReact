@@ -1,35 +1,41 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    margin: 50px 0 10px 0;
-    font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin: 50px 0 10px 0;
+  font-size: 1.1rem;
 }
 
 .botaoflutuante {
   position: fixed;
   width: 50px;
   height: 50px;
-  bottom: 40px; 
-  right: 40px;  
-  background-color: #25d366; 
+  bottom: 60px;
+  right: 40px;
+  background-color: #25d366;
   color: white;
-  border-radius: 50px; 
+  border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); 
-  z-index: 1000; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  z-index: 1000;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   transition-duration: 2s;
 }
 
 
 .botaoflutuante:hover {
-  background-color: #128c7e; 
-  transform: scale(1.1); 
+  background-color: #128c7e;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 720px) {
+  p {
+    text-align: center;
+  }
 }
