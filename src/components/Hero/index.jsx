@@ -25,7 +25,7 @@ export default function Hero() {
                             Alex Sandro Santos
                         </h1>
                         <p>
-                            Desenvolvedor Full Stack & Frellancer
+                            Desenvolvedor Full Stack & Freelancer
                         </p>
                         <div className={styles.content}>
                             <div className={styles.redessociais}>
