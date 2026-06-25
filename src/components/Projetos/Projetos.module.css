@@ -1,34 +1,42 @@
 .projetosContainer {
     background: linear-gradient(360deg, #0000, #005582);
-    padding: 4rem 2rem;
+    padding: 0 2rem 0rem 2rem;
     color: aliceblue;
     text-align: center;
-    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
 
     & h2 {
         font-size: 2.5rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
     }
 
 }
 
 .content {
-    border: 2px dashed #323238;
-    border-radius: 6px;
-    height: 300px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 
-    & p {
-        font-size: 1.5rem;
-        font-weight: 400;
-        margin-bottom: 0.5rem;
+    @media screen and (min-width:721px) {
+        & span {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            margin: 1.5rem 0 1.5rem 0;
+            gap: 15px;
+        }
     }
 
-    & span {
-
-        font-weight: 200;
+    @media screen and (max-width:720px) {
+        & span {
+            display: grid;
+            flex-wrap: wrap;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            margin: 1.0rem 0 1.0rem 0;
+        }
     }
-
 }

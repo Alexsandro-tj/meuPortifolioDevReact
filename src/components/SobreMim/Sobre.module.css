@@ -1,24 +1,17 @@
 .container {
     width: 100vw;
     color: aliceblue;
-
-    /* padding: 4rem 2rem; */
     background: linear-gradient(180deg, #0000, #005582);
+    padding-bottom: 1rem;
 }
 
 .content {
     width: 100vw;
-    /* height: 100vh; */
-    /* margin: 0 30px; */
-    /* display: flex; */
-    /* flex-direction: column; */
     align-items: center;
     text-align: center;
     gap: 4rem;
 
 }
-
-
 
 .sobreLdEsq {
     margin: 0 50px 0 60px;
@@ -43,10 +36,8 @@
 .skills {
     display: flex;
     flex-direction: column;
-
     width: 100vw;
     
-
     & h2 {
         font-size: 2.5rem;
         margin-bottom: 1.0rem;
@@ -73,8 +64,6 @@
     
 }
 
-
-
 }    
 .skillsCard {
     background-color: #29292e;
@@ -82,16 +71,11 @@
     border-radius: 6px;
     color: aliceblue;
     font-weight: bold;
-    transition: transform 0.8s ease-in-out;
-    cursor: pointer;
     margin-bottom: 10px;
     
 }
  
-.skillsCard:hover {
-    border: 2px solid #112BED;
-    transform: scale(1.1);
-}
+
 /* Telas menores */
 @media (max-width: 720px) {
     .container{
