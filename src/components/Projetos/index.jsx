@@ -3,11 +3,20 @@ import Cards from '../Cards';
 import ImgPortifolio from '../../../public/image/homePortifolio.png';
 import MyUi from '../../../public/image/my-ui.png';
 import CadUsers from '../../../public/image/cad-users.png';
+import Imobiliaria from '../../../public/image/imobiliaria.png';
 
 
 
 export default function Projetos() {
-    const sites = ["https://alexsandro-santos-dev-bice.vercel.app/","https://site-react-components.vercel.app/","https://cadastro-de-usuarios-react-node.vercel.app/","https://github.com/Alexsandro-tj/API---Cadastro-de-Usuarios"];
+    const sites =
+        [
+            "https://alexsandro-santos-dev-bice.vercel.app/",
+            "https://site-react-components.vercel.app/",
+            "https://cadastro-de-usuarios-react-node.vercel.app/",
+            "https://github.com/Alexsandro-tj/API---Cadastro-de-Usuarios",
+            "https://projeto-imobili-ria-santos.vercel.app/"
+
+        ];
 
     return (
         <section id='projetos' className={styles.projetosContainer}>
@@ -15,7 +24,7 @@ export default function Projetos() {
                 Projetos
             </h2>
             <div className={styles.content} data-aos="fade-right">
-            
+
                 <span>
                     <Cards
                         img={ImgPortifolio}
@@ -39,6 +48,18 @@ export default function Projetos() {
                         title='API - Cadastro De Usuários'
                         description='API para sistema desenvolvido em Node.js, para cadastrar usuários fictícios no banco de dados MongoBD. Ferramentas usadas: Express, Mongoose.'
                         link={sites[3]}
+                    />
+                    <Cards
+                        img={Imobiliaria}
+                        title='Landing Page Imobiliaria'
+                        description='API para sistema desenvolvido em Node.js, para cadastrar usuários fictícios no banco de dados MongoBD. Ferramentas usadas: Express, Mongoose.'
+                        link={sites[4]}
+                    />
+                    <Cards
+                        
+                        title='Próximo Projeto...'
+                        description='... Estou construindo ...'
+                       /*  link={sites[4]} */
                     />
                 </span>
             </div>
