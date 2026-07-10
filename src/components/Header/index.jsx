@@ -1,5 +1,5 @@
 import style from '../Header/Header.module.css'
-import CV from '../../../public/documents/curriculo_full_stack _alex_santos.pdf'
+import CV from '../../../public/documents/curriculo_alex_santos.pdf'
 import IconHomePage from '../../../public/image/icon-home-page.png'
 
 
