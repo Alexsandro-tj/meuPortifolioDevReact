@@ -53,7 +53,7 @@ export default function Projetos() {
                     <Cards
                         img={Imobiliaria}
                         title='Landing Page Imobiliaria'
-                        description='API para sistema desenvolvido em Node.js, para cadastrar usuários fictícios no banco de dados MongoBD. Ferramentas usadas: Express, Mongoose.'
+                        description='Pagina fictícia de imobiliaria. Tecnologias utilizadas: HTML e CSS'
                         link={sites[4]}
                     />
 
